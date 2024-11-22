@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BrawlApi</string>
+    <string name="bienvenida">¡Bienvenido a BrawlApi!</string>
+    <string name="usuar">Usuario</string>
+    <string name="btn">Siguiente</string>
+    <string name="creditos">Tu app para todo sobre Brawl Stars.</string>
+    <string name="btncontact">Contactar</string>
+    <string name="splashtexto">Cargando...</string>
+    <string name="creditostitulo">%1$s, estás usando la versión 1.0 de BrawlApi</string>
+    <string name="email">Consulta de la app BrawlApi</string>
+</resources>
