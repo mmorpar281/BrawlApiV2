@@ -8,4 +8,6 @@
     <string name="splashtexto">Cargando...</string>
     <string name="creditostitulo">%1$s, estás usando la versión 1.0 de BrawlApi</string>
     <string name="email">Consulta de la app BrawlApi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

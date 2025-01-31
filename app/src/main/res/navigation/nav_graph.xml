@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Fragmento de Login -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.brawlapi.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_viewPager2"
+            app:destination="@id/viewPager2" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPager2"
+        android:name="com.example.brawlapi.ViewPager2"
+        android:label="fragment_view_pager2"
+        tools:layout="@layout/fragment_view_pager2" >
+        <action
+            android:id="@+id/action_viewPager2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.brawlapi.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+
+</navigation>

@@ -15,21 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-       /* ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }*/
-        val btn = findViewById<Button>(R.id.btn)
-        val etNombre = findViewById<EditText>(R.id.etNombre)
-        btn.setOnClickListener{
-            if(etNombre.text.isEmpty()){
-                Toast.makeText(this, "Error: Se necesita informacion en el editext", Toast.LENGTH_SHORT).show()
-            }else{
-                val intent = Intent(this, CreditActivity::class.java)
-                intent.putExtra("NAME", etNombre.text.toString())
-                startActivity(intent)
-            }
-        }
+
+
     }
 }
